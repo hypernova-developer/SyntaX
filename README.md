@@ -25,7 +25,7 @@ While this main repository contains the complete collection, each language has i
 | **JavaScript** | [SyntaX for JavaScript](https://github.com/hypernova-developer/SyntaX_for_JavaScript) |
 | **Python** | [SyntaX for Python](https://github.com/hypernova-developer/SyntaX_for_Python) |
 | **Fortran** | [SyntaX for Fortran](https://github.com/hypernova-developer/SyntaX_for_Fortran) |
-| **Kotlin** | [SyntaX for Kotlin](https://github.com/hypernova-developer/SyntaX_For_Kotlin) |
+| **Kotlin** | [SyntaX for Kotlin](https://github.com/hypernova-developer/SyntaX_for_Kotlin) |
 
 ---
 
