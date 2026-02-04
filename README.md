@@ -1,4 +1,4 @@
-# SyntaX: The Library Family 🚀
+# SyntaX: The Library Collection (SLC) 🚀
 
 **SyntaX** is a unified, lightweight, and professional utility ecosystem designed to bring the **simplicity of Python's syntax** to every major programming language. 
 
@@ -8,11 +8,11 @@ Are you tired of switching between different naming conventions like `std::cout`
 
 ## 🌟 The SyntaX Philosophy
 
-The core goal of this family is **Standardization**. Whether you are working on a low-level C project or a modern Node.js backend, SyntaX ensures that your favorite helper functions—like `print()`, `input()`, and `randint()`—stay exactly the same.
+The core goal of this collection is **Standardization**. Whether you are working on a low-level C project or a modern Node.js backend, SyntaX ensures that your favorite helper functions—like `print()`, `input()`, and `randint()`—stay exactly the same.
 
 ---
 
-## 📂 The Library Family (Sub-Repositories)
+## 📂 The Library Collection (Sub-Repositories)
 
 While this main repository contains the complete collection, each language has its own dedicated repository for specialized updates and detailed documentation.
 
@@ -34,7 +34,7 @@ While this main repository contains the complete collection, each language has i
 * **Unified API:** Same function names across 8 different programming languages.
 * **Zero Dependencies:** Each library is built using only standard system headers.
 * **Developer Friendly:** Eliminates verbose boilerplate for I/O, math, and system tasks.
-* **VorteX Core:** This library family serves as the primary engine for the **VorteX File Explorer**.
+* **VorteX Core:** This library collection serves as the primary engine for the **VorteX File Explorer**.
 
 ---
 
@@ -54,7 +54,7 @@ Regardless of the language you choose, **SyntaX** standardizes your workflow:
 
 ## 📜 Licensing
 
-This entire library family is licensed under the **GNU General Public License v3.0**. 
+This entire library collection is licensed under the **GNU General Public License v3.0**. 
 Copyright (C) 2026 **hypernova-developer**.
 
 ---
