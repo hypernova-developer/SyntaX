@@ -1,0 +1,71 @@
+/* * bettersyntax.css v1.0.0
+ * Part of the SyntaX Ecosystem by hypernova-developer
+ * Standardized Power for Web Styling
+ */
+
+:root {
+    /* Dynamic Parameters - Change these to override defaults */
+    --bs-main-color: #38bdf8;
+    --bs-bg-color: #020617;
+    --bs-hover-color: #ef4444;
+    --bs-glass-blur: 10px;
+    --bs-border-opacity: 0.1;
+    --bs-card-radius: 12px;
+}
+
+/* 1. Ultimate Centering Engine */
+/* Parameterized: Can take different widths/heights from parent */
+.bs-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 2. Dynamic Background Control */
+/* Use: Adjusts to the --bs-bg-color variable */
+.bs-bg-core {
+    background-color: var(--bs-bg-color);
+    transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 3. Glowing Cursor Interaction */
+/* Removes default cursor for custom JS implementation */
+.bs-cursor-hidden {
+    cursor: none !important;
+}
+
+/* 4. Parameterized Glow Effect */
+/* Takes color and size parameters from variables */
+.bs-glow {
+    color: var(--bs-main-color);
+    text-shadow: 0 0 10px var(--bs-main-color), 
+                 0 0 20px rgba(56, 189, 248, 0.3);
+}
+
+/* 5. Advanced Glassmorphism */
+/* Parameters: blur intensity and border visibility */
+.bs-glass-panel {
+    background: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(var(--bs-glass-blur));
+    -webkit-backdrop-filter: blur(var(--bs-glass-blur));
+    border: 1px solid rgba(56, 189, 248, var(--bs-border-opacity));
+    border-radius: var(--bs-card-radius);
+}
+
+/* 6. Power Grid System */
+/* Parameters: Gap and min-width for responsiveness */
+.bs-grid-auto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+/* 7. Interactive Scaling (Saf Güç Modu) */
+.bs-hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.bs-hover-scale:hover {
+    transform: translateY(-5px) scale(1.02);
+    border-color: var(--bs-main-color);
+}
