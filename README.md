@@ -25,7 +25,7 @@ While this main repository contains the complete collection, each language has i
 | **JavaScript** | [SyntaX for JavaScript](https://github.com/hypernova-developer/SyntaX_for_JavaScript) |
 | **Python** | [SyntaX for Python](https://github.com/hypernova-developer/SyntaX_for_Python) |
 | **Fortran** | [SyntaX for Fortran](https://github.com/hypernova-developer/SyntaX_for_Fortran) |
-| **HMTL** | [SyntaX for HTML](https://github.com/hypernova-developer/SyntaX_for_HTML) |
+| **HTML** | [SyntaX for HTML](https://github.com/hypernova-developer/SyntaX_for_HTML) |
 | **CSS** | [SyntaX for CSS](https://github.com/hypernova-developer/SyntaX_for_CSS) |
 
 ---
