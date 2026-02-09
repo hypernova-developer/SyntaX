@@ -25,13 +25,14 @@ While this main repository contains the complete collection, each language has i
 | **JavaScript** | [SyntaX for JavaScript](https://github.com/hypernova-developer/SyntaX_for_JavaScript) |
 | **Python** | [SyntaX for Python](https://github.com/hypernova-developer/SyntaX_for_Python) |
 | **Fortran** | [SyntaX for Fortran](https://github.com/hypernova-developer/SyntaX_for_Fortran) |
-| **Kotlin** | [SyntaX for Kotlin](https://github.com/hypernova-developer/SyntaX_for_Kotlin) |
+| **HMTL** | [SyntaX for HTML](https://github.com/hypernova-developer/SyntaX_for_HTML) |
+| **CSS** | [SyntaX for CSS](https://github.com/hypernova-developer/SyntaX_for_CSS) |
 
 ---
 
 ## 🛠️ Global Key Features
 
-* **Unified API:** Same function names across 8 different programming languages.
+* **Unified API:** Same function names across 10 different programming languages.
 * **Zero Dependencies:** Each library is built using only standard system headers.
 * **Developer Friendly:** Eliminates verbose boilerplate for I/O, math, and system tasks.
 * **VorteX Core:** This library collection serves as the primary engine for the **VorteX File Explorer**.
