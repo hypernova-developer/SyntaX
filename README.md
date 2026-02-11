@@ -16,7 +16,7 @@ The core goal of this collection is **Standardization**. Whether you are working
 
 While this main repository contains the complete collection, each language has its own dedicated repository for specialized updates and detailed documentation.
 
-| Language | Repository Link |
+| Language / Library | Repository Link |
 | :--- | :--- |
 | **C++** | [SyntaX for CPP](https://github.com/hypernova-developer/SyntaX_for_CPP) |
 | **C** | [SyntaX for C](https://github.com/hypernova-developer/SyntaX_for_C) |
@@ -27,6 +27,8 @@ While this main repository contains the complete collection, each language has i
 | **Fortran** | [SyntaX for Fortran](https://github.com/hypernova-developer/SyntaX_for_Fortran) |
 | **HTML** | [SyntaX for HTML](https://github.com/hypernova-developer/SyntaX_for_HTML) |
 | **CSS** | [SyntaX for CSS](https://github.com/hypernova-developer/SyntaX_for_CSS) |
+| **SDL** | [SyntaX for SDL](https://github.com/hypernova-developer/SyntaX_for_SDL) |
+| **Pygame** | [SyntaX for Pygame](https://github.com/hypernova-developer/SyntaX_for_Pygame) |
 
 ---
 
