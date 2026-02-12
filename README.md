@@ -29,6 +29,7 @@ While this main repository contains the complete collection, each language has i
 | **CSS** | [SyntaX for CSS](https://github.com/hypernova-developer/SyntaX_for_CSS) |
 | **SDL** | [SyntaX for SDL](https://github.com/hypernova-developer/SyntaX_for_SDL) |
 | **Pygame** | [SyntaX for Pygame](https://github.com/hypernova-developer/SyntaX_for_Pygame) |
+| **AI** | [SyntaX for AI](https://github.com/hypernova-developer/SyntaX_for_AI) |
 
 ---
 
