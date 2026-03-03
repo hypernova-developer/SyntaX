@@ -2,7 +2,7 @@
 
 Official release repository for the SyntaX ecosystem.
 
-## Current Release: v2.0 (The Foundation)
+## Current Release: v2.0 (The Unlimited Power)
 
 This version includes the core library implementations for the following 10 languages:
 
