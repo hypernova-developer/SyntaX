@@ -2,7 +2,7 @@
 
 Official release repository for the SyntaX ecosystem.
 
-## Current Release: v1.0 (The Foundation)
+## Current Release: v2.0 (The Foundation)
 
 This version includes the core library implementations for the following 10 languages:
 
@@ -17,6 +17,12 @@ This version includes the core library implementations for the following 10 lang
 * **Java**
 * **Kotlin**
 * **Python**
+
+### Supported Modules
+
+* **SDL3**
+* **Pygame**
+* **AI**
 
 ---
 
