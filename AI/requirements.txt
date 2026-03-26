@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+scikit-fuzzy
+skyfield
+matplotlib
+tensorflow
+mesa
+pygad
+tqdm
