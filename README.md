@@ -40,6 +40,7 @@ While this main repository contains the complete collection, each language has i
 * **Zero Dependencies:** Each library is built using only standard system headers.
 * **Developer Friendly:** Eliminates verbose boilerplate for I/O, math, and system tasks.
 * **VorteX Core:** This library collection serves as the primary engine for the **VorteX File Explorer**.
+* **Sky Positioning System:** This library collection serves as the primary engine for the **SPS**.
 
 ---
 
