@@ -117,7 +117,32 @@ class AI_System_Architect:
         """Returns the raw error margin for rule calibration."""
         return np.abs(y_true - y_pred)
 
+    # --- 7. SKY POSITIONING & ADAPTIVE LOGIC (SPS READY) ---
+    def predictive_linear_regression(self, X_history, y_history):
+        """
+        SPS: Predicts the next coordinate of a celestial body using linear trends.
+        Ideal for tracking satellites or planetary movement with low noise.
+        """
+        from sklearn.linear_model import LinearRegression
+        model = LinearRegression().fit(X_history, y_history)
+        return model
+
+    def tensor_normalization_buffer(self, data):
+        """
+        SPS: Normalizes astronomical input data to a 0-1 range before AI processing.
+        Ensures consistency across different sensor scales.
+        """
+        return (data - np.min(data)) / (np.max(data) - np.min(data))
+
+    def adaptive_learning_rate_scale(self, loss_history):
+        """
+        SPS: Dynamically scales the learning rate based on historical loss complexity.
+        Optimizes model convergence for real-time sky positioning.
+        """
+        return np.mean(loss_history) * 0.01 if len(loss_history) > 0 else 0.001
+
 # --- EXECUTION ---
 if __name__ == "__main__":
     engine = AI_System_Architect()
-    print("[RESULT] 48 Functions Loaded. Pure Power Ready.")
+    # Updated to reflect the 3 new SPS functions (48 + 3 = 51)
+    print(f"[RESULT] 51 Functions Loaded. Session {engine.session_id} - Pure Power Ready.")
