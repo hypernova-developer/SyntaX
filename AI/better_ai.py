@@ -141,8 +141,33 @@ class AI_System_Architect:
         """
         return np.mean(loss_history) * 0.01 if len(loss_history) > 0 else 0.001
 
+    # --- 8. NEURAL ANOMALY & LOGIC EXPANSION (SYNTAX v1.5.0) ---
+    def detect_spectral_outliers(self, data, contamination=0.1):
+        """
+        SPS: Identifies anomalous spectral data points using Isolation Forest.
+        Crucial for filtering noise in deep space radio signals.
+        """
+        from sklearn.ensemble import IsolationForest
+        clf = IsolationForest(contamination=contamination).fit(data)
+        return clf.predict(data)
+
+    def compute_cosine_similarity_matrix(self, vector_a, vector_b):
+        """
+        SPS: Measures the angular distance between two celestial coordinate vectors.
+        Optimized for high-dimensional tensor comparisons.
+        """
+        from sklearn.metrics.pairwise import cosine_similarity
+        return cosine_similarity(vector_a, vector_b)
+
+    def synthetic_data_generator(self, base_data, noise_factor=0.1):
+        """
+        SPS: Generates synthetic astronomical datasets by augmenting base patterns.
+        Used to train robust models when real telescope data is scarce.
+        """
+        return base_data + (np.random.randn(*base_data.shape) * noise_factor)
+
 # --- EXECUTION ---
 if __name__ == "__main__":
     engine = AI_System_Architect()
-    # Updated to reflect the 3 new SPS functions (48 + 3 = 51)
-    print(f"[RESULT] 51 Functions Loaded. Session {engine.session_id} - Pure Power Ready.")
+    # Now reaching the 54-function milestone (48 + 3 + 3 = 54)
+    print(f"[RESULT] 54 Functions Loaded. Session {engine.session_id} - Pure Power Ready.")
