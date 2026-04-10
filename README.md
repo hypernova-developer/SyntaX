@@ -63,7 +63,7 @@ Regardless of the language you choose, **SyntaX** standardizes your workflow:
 
 This entire library collection is licensed under the **GNU General Public License v3.0**. 
 Copyright (C) 2026 **hypernova-developer**.
-Latest Release: SyntaX v3.0-LTS
+Latest Release: SyntaX v3.1-LTS
 
 ---
 
